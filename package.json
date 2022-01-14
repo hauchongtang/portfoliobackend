@@ -1,6 +1,9 @@
 {
   "name": "portfoliopagebackend",
   "version": "1.0.0",
+    "engines": {
+    "node": "14.17.2"
+  },
   "description": "backend for portfolio page",
   "main": "server.js",
   "scripts": {
