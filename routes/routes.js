@@ -92,9 +92,9 @@ router.patch('/:id', async (req, res) => {
             success: true,
             data: updatedCard
         })
-    } catch (error) {
+    } catch (e) {
         res.status(400).json({
-            message: error
+            message: e
         })
     }
 })
